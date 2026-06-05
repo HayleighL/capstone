@@ -1,0 +1,24 @@
+body {
+    color: black;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif
+    Arial, Helvetica, sans-serif
+}
+
+header {
+    background-color: white;
+      font-family: "Mystery Quest", system-ui;
+}
+
+footer {
+    background-color: white;
+}
+
+section {
+    background-color: #A7A6AE;
+}
+
+/* contact page stuff */
+.contact-header {
+    background-color:#A7A6AE;
+}
