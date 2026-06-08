@@ -1,8 +1,8 @@
 body {
-    color: black;
     background-color: white;
-    font-family: 'Times New Roman', Times, serif
-    Arial, Helvetica, sans-serif
+    font-family: 'Times New Roman', Times, serif,
+    Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 header {
@@ -10,15 +10,59 @@ header {
       font-family: "Mystery Quest", system-ui;
 }
 
-footer {
-    background-color: white;
+h1 {
+    font-family: "Mystery Quest", system-ui;
+    text-align: center;
+    a {
+        text-align: center;
+    }
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav {
+    text-align: center;
+}
+
+div {
+  line-height: 1.5;
+}
+
+p {
+    font-weight: normal;
+
+}
+
+figcaption {
+   font-style: italic;
 }
 
 section {
     background-color: #A7A6AE;
 }
 
+footer {
+    text-align: right;
+}
+a {
+    font-size: 20px;
+}
+ a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+
+    /* keep the colour palette in mind but maybe try adjust this colour later ? */
+    a:visited {
+        color: #6A5E6C;
+    }
+ a:active {
+        color: #000000;
+    }
+
 /* contact page stuff */
 .contact-header {
-    background-color:#A7A6AE;
+     background-color:#A7A6AE ;
 }
