@@ -1,0 +1,68 @@
+body {
+    font-family: 'Times New Roman', Times, serif,
+    Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.div-1 {
+  background-color: #A7A6AE;
+  width: 200px;
+  height: 250px;
+  padding: 10px;
+  margin: 20px;
+  border: 4px dashed #6A5E6C;
+  border-radius: 15px;
+}
+
+.div-2 {
+  background-color: #A7A6AE;
+  width: 190px;
+  height: 250px;
+  padding: 10px;
+  margin: 20px;
+  margin-top: 25px;
+  border: 4px dashed #6A5E6C;
+  border-radius: 15px;
+}
+
+header {
+  border: 4px dotted;
+  text-align: center;
+  background-color: #A7A6AE;
+}
+
+.border-box {
+  /* total 150px height and width because the contetn shrinks to fit the padding and border.*/
+  width: 220px;
+  height: 220px;
+  padding: 10px;
+  margin: 20px;
+  border: 2px dotted black;
+  background-color: pink;
+  box-sizing: border-box;
+}
+
+.content-box {
+  /* total 174px for height and width */
+  width: 13%;
+  height: 250px;
+  padding: 10px;
+  margin: 20px;
+  border: 2px dotted black;
+  background-color: grey;
+  /* By default box-sizing is set to content-box */
+  box-sizing: content-box;
+}
+
+
+#id-title {
+  text-decoration: underline;
+}
+
+.class-title {
+  text-decoration: underline;
+}
+
+h1 {
+ font-family: "Mystery Quest", system-ui, Arial, Helvetica, sans-serif;
+}

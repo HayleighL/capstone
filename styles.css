@@ -7,15 +7,12 @@ body {
 
 header {
     background-color: white;
-      font-family: "Mystery Quest", system-ui;
+      font-family: "Mystery Quest", system-ui, Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-family: "Mystery Quest", system-ui;
+    font-family: "Mystery Quest", system-ui, Arial, Helvetica, sans-serif;
     text-align: center;
-    a {
-        text-align: center;
-    }
 }
 
 header h1 {
@@ -33,6 +30,13 @@ div {
 p {
     font-weight: normal;
 
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-left: 0;
 }
 
 figcaption {
@@ -64,5 +68,7 @@ a {
 
 /* contact page stuff */
 .contact-header {
-     background-color:#A7A6AE ;
+    border: 4px dotted;
+    text-align: center;
+    background-color: #A7A6AE;
 }
