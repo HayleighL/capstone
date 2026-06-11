@@ -61,7 +61,6 @@ a {
         text-decoration: underline;
     }
 
-    /* keep the colour palette in mind but maybe try adjust this colour later ? */
     a:visited {
         color: #6A5E6C;
     }
@@ -78,4 +77,8 @@ a {
 
 .contacter {
     text-decoration: underline;
+}
+
+.contact {
+    text-align: center;
 }
